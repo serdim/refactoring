@@ -12,7 +12,7 @@ public class Customer {
         _name = name2;
     }
 
-    public void addRental(Rental arg) {
+    public void addRental(Rental argNew) {
         _rentals.add(arg);
     }
 
