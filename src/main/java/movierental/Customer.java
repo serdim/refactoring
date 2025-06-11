@@ -16,8 +16,8 @@ public class Customer {
         _rentals.add(arg2);
     }
 	
-	public void addRental2(Rental arg2) {
-        _rentals.add(arg2);
+	public void addRental2(Rental argNameChanged) {
+        _rentals.add(argNameChanged);
     }
 
     public String getName() {
