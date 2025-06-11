@@ -15,6 +15,10 @@ public class Customer {
     public void addRental(Rental arg2) {
         _rentals.add(arg2);
     }
+	
+	public void addRental2(Rental arg2) {
+        _rentals.add(arg2);
+    }
 
     public String getName() {
         return _name;
