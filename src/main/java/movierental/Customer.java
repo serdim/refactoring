@@ -8,8 +8,8 @@ public class Customer {
     private String _name;
     private List<Rental> _rentals = new ArrayList<Rental>();
 
-    public Customer(String name3) {
-        _name = name2;
+    public Customer(String NuovoNome) {
+        _name = NuovoNome;
     }
 
     public void addRental(Rental arg2) {
